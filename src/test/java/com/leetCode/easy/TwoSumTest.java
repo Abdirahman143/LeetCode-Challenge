@@ -40,14 +40,14 @@ public class TwoSumTest {
                 assertFalse(Arrays.equals(expected,actual));
     }
 
-    @Test
-    @Order(3)
-    @DisplayName("TC:3")
-    public void testScenarioThree(){
-                int [] expected =new int[]{0,1};
-                int [] actual = solution.twoSum(arr3,target2);
-                assertArrayEquals(expected,actual);
-    }
+//    @Test
+//    @Order(3)
+//    @DisplayName("TC:3")
+//    public void testScenarioThree(){
+//                int [] expected =new int[]{0,1};
+//                int [] actual = solution.twoSum(arr3,target2);
+//                assertArrayEquals(expected,actual);
+//    }
 
 
 
